@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.10.11 on win32)" generated="2024-09-14T07:54:21.073020" rpa="false" schemaversion="5">
+<suite id="s1" name="Verify" source="C:\Users\Swati\PycharmProjects\LEARNPYTHON\homework.robotframework\Verify.robot">
+<test id="s1-t1" name="Verify 'X' Button on the Sign-In Page" line="7">
+<kw name="Open Browser" owner="SeleniumLibrary" type="SETUP">
+<msg time="2024-09-14T07:54:21.293201" level="INFO">Opening browser 'Chrome' to base url 'https://www.cheapflights.ca/'.</msg>
+<arg>https://www.cheapflights.ca/</arg>
+<arg>Chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-09-14T07:54:21.293201" elapsed="2.977072"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-09-14T07:54:24.270273" elapsed="0.080434"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-09-14T07:54:29.356001" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-09-14T07:54:24.351707" elapsed="5.004294"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-09-14T07:54:29.359059" level="INFO">Clicking element 'class:J-sA-label'.</msg>
+<arg>class:J-sA-label</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-09-14T07:54:29.359059" elapsed="0.116522"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-09-14T07:54:34.476268" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-09-14T07:54:29.475581" elapsed="5.000687"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-09-14T07:54:34.477689" level="INFO">Clicking element 'css:div.dDYU-close'.</msg>
+<arg>css:div.dDYU-close</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-09-14T07:54:34.477689" elapsed="0.092560"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-09-14T07:54:39.579998" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-09-14T07:54:34.570249" elapsed="5.009749"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-09-14T07:54:39.582646" elapsed="2.382863"/>
+</kw>
+<status status="PASS" start="2024-09-14T07:54:21.277256" elapsed="20.688253"/>
+</test>
+<test id="s1-t2" name="Flight Search" line="16">
+<kw name="Open Browser" owner="SeleniumLibrary" type="SETUP">
+<msg time="2024-09-14T07:54:41.965509" level="INFO">Opening browser 'Chrome' to base url 'https://www.cheapflights.ca/'.</msg>
+<arg>https://www.cheapflights.ca/</arg>
+<arg>Chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-09-14T07:54:41.965509" elapsed="3.012569"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-09-14T07:54:44.979078" elapsed="0.064198"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-09-14T07:54:45.043942" level="INFO">Clicking element 'class:c1qgT'.</msg>
+<arg>class:c1qgT</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-09-14T07:54:45.043942" elapsed="0.075097"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-09-14T07:54:48.132288" level="INFO">Slept 3 seconds.</msg>
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-09-14T07:54:45.119039" elapsed="3.013249"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-09-14T07:54:48.132288" level="INFO">Clicking element 'xpath://li[@id="oneway"]'.</msg>
+<arg>xpath://li[@id="oneway"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-09-14T07:54:48.132288" elapsed="0.081306"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-09-14T07:54:53.228080" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-09-14T07:54:48.213594" elapsed="5.014486"/>
+</kw>
+<status status="PASS" start="2024-09-14T07:54:41.965509" elapsed="11.262571"/>
+</test>
+<test id="s1-t3" name="Verify Input for &quot;From?&quot;" line="28">
+<kw name="Open Browser" owner="SeleniumLibrary" type="SETUP">
+<msg time="2024-09-14T07:54:53.228080" level="INFO">Opening browser 'Chrome' to base url 'https://www.cheapflights.ca/'.</msg>
+<arg>https://www.cheapflights.ca/</arg>
+<arg>Chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-09-14T07:54:53.228080" elapsed="2.702109"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-09-14T07:54:55.930189" elapsed="0.073973"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-09-14T07:54:56.004162" level="INFO">Clicking element 'xpath://input[@aria-label='Flight origin input']'.</msg>
+<arg>xpath://input[@aria-label='Flight origin input']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-09-14T07:54:56.004162" elapsed="0.144742"/>
+</kw>
+<status status="PASS" start="2024-09-14T07:54:53.228080" elapsed="2.921646"/>
+</test>
+<status status="PASS" start="2024-09-14T07:54:21.073020" elapsed="35.078753"/>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="3" fail="0" skip="0" id="s1" name="Verify">Verify</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
